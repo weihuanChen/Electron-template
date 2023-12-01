@@ -9,6 +9,8 @@ export let buildPlugin = () => {
       buildObj.buildMain();
       buildObj.buildPackageJson();
       buildObj.buildeInstaller();
+      buildObj.prepareSqlite();
+      buildObj.prepareKnexjs();
     },
   };
 };
